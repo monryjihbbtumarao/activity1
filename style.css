@@ -1,0 +1,176 @@
+:root{
+    --dardred: #4f2388;;
+    --ambotsaninacolor: #3e2066;
+    --white: #f2f2f4;
+    --black: #010103;
+}
+body{
+    background: linear-gradient(45deg, #d5d5d6, #eaecf5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.curriculumvitae{
+    width: 700px;
+    background: var(--white);
+    margin: 50px auto;
+    box-shadow: -22px -5px 50px -5px #000000c2;
+    position: relative;
+}
+.clearfix{
+    clear: both;
+}
+.left{
+    width: 200px;
+    float: left;
+    padding: 25px;
+    background: var(--ambotsaninacolor);
+}
+.right{
+    width: 400px; 
+    float: left;
+    text-align: center;
+}
+.profile{
+    width: 100%;
+}
+h2{
+    text-transform: uppercase;
+    color: var(--dardred);
+    background: var(--white);
+    letter-spacing: 10px;
+    text-align: center;
+    width: 221px;
+    margin-left: -15px;
+    padding-left: 9px;
+}
+.p1{
+    color: #ddd;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.skillcontainer{
+    width: 100%;
+    background: #6b6cbe;
+}
+.skill{
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    position: relative;
+}
+.skill::ater{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: var(--white);
+    top: -6px;
+    border-radius: 10px;
+}
+.html{width: 50%; background-color: var(--white);}
+.css{width: 50%; background-color: var(--white);}
+.java{width: 75%; background-color: var(--white);}
+.python{width: 60%; background-color: var(--white);}
+.c{width: 60%; background-color: var(--white);}
+h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.p2{
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+    font-size: 17px;
+}
+.head{
+    text-transform: uppercase;
+    color: var(--white);
+    background: var(--dardred);
+    letter-spacing: 5px;
+    text-align: centers;
+    width: 270px;
+    font-weight: 300;
+    margin: 20px auto;
+}
+h3{
+    margin: 0px;
+}
+.p3{
+    margin: 0 auto;
+    line-height: 20px;
+    width: 260px;
+    font-size: 14px;
+}
+.line{
+    transform: rotateZ(90deg);
+    right: -525px;
+    position: absolute;
+    top: 473px;
+}
+.line li{
+    list-style: none;
+    float: left;
+    padding: 20px 86.5px;
+    border-bottom: solid var(--dardred);
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+}
+.icons{
+    list-style: none;
+    margin-left: 24px;
+}
+.icons li{
+    float: left;
+    position: relative;
+    padding: 20px;
+    display: block;
+}
+.icons li img:hover{
+    filter: opacity(50%);
+}
+@media screen and (max-width: 768px){
+    .curriculumvitae{
+        width: 400px;
+        position: relative;
+    }
+    .profile{
+        width: 70%;
+        margin-top: 20px;
+    }
+    .left{
+        width: 350px;
+        float: left;
+        padding: 25px;
+        text-align: center;
+        background: var(--ambotsaninacolor);
+    }
+    .left h2{
+        margin-left: 60px;
+    }
+    .right{
+        width: 400px; 
+        float: left;
+        text-align: center;
+        height: 1000px;
+    }
+    .line{
+        transform: none;
+        position: absolute;
+        top: 1970px;
+        margin-right: 480px;
+    }
+    .line li{
+        list-style: none;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        border: none;
+        font-size: 14px;
+        position: relative;
+    }
+}
